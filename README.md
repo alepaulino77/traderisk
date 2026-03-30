@@ -164,20 +164,3 @@ trade-risk-api/
 │   └── TradeRiskApi.IntegrationTests/
 └── README.md
 ```
-
-## Pontos que eu destacaria numa apresentação
-
-- separação clara de responsabilidades
-- facilidade de evolução das regras
-- processamento linear para grandes lotes
-- cobertura com testes unitários e de integração
-- endpoint específico para classificação simples e outro para classificação + analytics
-
-## Melhorias futuras
-
-- versionamento da API
-- benchmarks com BenchmarkDotNet
-- observabilidade com OpenTelemetry
-- autenticação/autorização
-- paginação ou processamento assíncrono para lotes ainda maiores
-- contratos OpenAPI enriquecidos com exemplos
