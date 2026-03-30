@@ -138,6 +138,7 @@ Também é possível gerar outros arquivos de payload com dados aleatórios roda
 ```bash
 ./test-classify.ps1
 ```
+OBS: Necessário ter o CURL instalado !!!
 
 ## Estrutura da solução
 
