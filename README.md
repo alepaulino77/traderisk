@@ -136,13 +136,15 @@ Devido à limitação de tamanho do response no Swagger, para fazer uma requisi�
 ```
 OBS: Necessário ter o CURL instalado !!!
 
-Ao executa-lo ele lê um arquivo JSon ( trades.json ) com um payload contendo 100.000 trades e posta na requisisão do endpoint /api/trades/risk/classify. 
+Ao executa-lo ele lê um arquivo JSon ( trades.json ) com um payload contendo 100.000 trades e posta na requisição do endpoint /api/trades/risk/classify. 
 
 Também é possível gerar outros arquivos de payload com dados aleatórios rodando o script randomic-request-generator.ps1.
 
 ```bash
 ./randomic-request-generator.ps1
 ```
+
+Ao executa-lo ele vai gerar um novo arquivo de payload trades.json com dados aleatórios. ( dados diferentes a cada arquivo gerado )
 
 
 ## Estrutura da solução
