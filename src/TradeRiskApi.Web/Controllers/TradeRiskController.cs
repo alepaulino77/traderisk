@@ -17,7 +17,7 @@ public sealed class TradeRiskController : ControllerBase
         _logger = logger;
     }
 
-    [HttpPost("")]
+    [HttpPost("classify")]
     [ProducesResponseType(typeof(ClassifyTradesResponse), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Classify(

@@ -26,7 +26,7 @@ public sealed class TradeRiskEndpointsTests : IClassFixture<WebApplicationFactor
             new { value = 3_000_000m, clientSector = "Public", clientId = "CLI002" }
         };
 
-        var response = await _httpClient.PostAsJsonAsync("/api/trades/risk", payload);
+        var response = await _httpClient.PostAsJsonAsync("/api/trades/risk/classify", payload);
 
         response.StatusCode.Should().Be(HttpStatusCode.OK);
         var body = await response.Content.ReadFromJsonAsync<ClassifyResponse>();
