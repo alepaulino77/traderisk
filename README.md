@@ -105,6 +105,7 @@ Classifica os trades e retorna resumo estatístico.
   "processingTimeMs": 45
 }
 ```
+OBS: Incluí a propriedade processingTimeMs no response para analisar o tempo de processamento ao testar 100.000 (Cem mil) trades.
 
 ## Como executar
 
