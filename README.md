@@ -155,7 +155,7 @@ Ao executa-lo ele vai gerar um novo arquivo de payload trades.json com dados ale
 trade-risk-api/
 ├── scripts/
 │   ├── randomic-request-generator.ps1
-│   ├── test-classify.ps1
+│   ├── test-classify-with-summary.ps1
 │   └── trades.json
 ├── src/
 │   ├── TradeRiskApi.Domain/
