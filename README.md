@@ -130,7 +130,7 @@ Swagger ficará disponível em ambiente de desenvolvimento ( URL: https://localh
 
 ### Testando 100.000 (Cem mil) trades
 
-Devido à limitação de tamanho do response no Swagger, para fazer uma requisição de 100.000 (Cem mil) trades, criei um script powershell test-classify.ps1 na pasta scripts. 
+Devido à limitação de tamanho do response no Swagger, para fazer uma requisição de 100.000 (Cem mil) trades, criei um script powershell test-classify-with-summary.ps1 na pasta scripts. 
 
 ```bash
 cd scripts
