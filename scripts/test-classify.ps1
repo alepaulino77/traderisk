@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
   [Parameter(Mandatory = $false)]
-  [string] $BaseUrl = "https://localhost:44303"
+  [string] $BaseUrl = "https://localhost:49864"
 )
 
 $uri = "$BaseUrl/api/trades/risk/classify"

@@ -116,7 +116,7 @@ Classifica os trades e retorna resumo estatístico.
 
 ```bash
 git clone <repo>
-cd trade-risk-api
+cd traderisk
 
 dotnet restore
 dotnet build
@@ -125,7 +125,7 @@ dotnet test
 dotnet run --project src/TradeRiskApi.Web
 ```
 
-Swagger ficará disponível em ambiente de desenvolvimento ( URL: https://localhost:44303/swagger ).
+Swagger ficará disponível em ambiente de desenvolvimento ( URL: https://localhost:49864/swagger ).
 
 ### Testando 100.000 (Cem mil) trades
 
