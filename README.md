@@ -152,7 +152,7 @@ Ao executa-lo ele vai gerar um novo arquivo de payload trades.json com dados ale
 ## Estrutura da solução
 
 ```text
-trade-risk-api/
+traderisk/
 ├── scripts/
 │   ├── randomic-request-generator.ps1
 │   ├── test-classify-with-summary.ps1
