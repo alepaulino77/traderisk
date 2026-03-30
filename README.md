@@ -115,7 +115,7 @@ Classifica os trades e retorna resumo estatístico.
 ### Passos
 
 ```bash
-git clone <repo>
+git clone https://github.com/alepaulino77/traderisk.git
 cd traderisk
 
 dotnet restore
