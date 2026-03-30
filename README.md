@@ -129,7 +129,11 @@ Swagger ficará disponível em ambiente de desenvolvimento ( URL: https://localh
 
 ### Testando 100.000 (Cem mil) trades
 
-Devido à limitação de tamanho do response no Swagger, para fazer uma requisição de 100.000 (Cem mil) trades, criei um script powershell test-classify.ps1 na pasta scripts. Ao executa-lo ele lê um arquivo JSon com um payload contendo 100.000 trades e posta na requisisão do endpoint /api/trades/risk/classify. Também é possível gerar outros arquivos de payload com dados aleatórios rodando o script randomic-request-generator.ps1.
+Devido à limitação de tamanho do response no Swagger, para fazer uma requisição de 100.000 (Cem mil) trades, criei um script powershell test-classify.ps1 na pasta scripts. 
+
+Ao executa-lo ele lê um arquivo JSon com um payload contendo 100.000 trades e posta na requisisão do endpoint /api/trades/risk/classify. 
+
+Também é possível gerar outros arquivos de payload com dados aleatórios rodando o script randomic-request-generator.ps1.
 
 ```bash
 ./test-classify.ps1
