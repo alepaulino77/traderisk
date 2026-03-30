@@ -4,7 +4,7 @@ param(
   [string] $BaseUrl = "https://localhost:49864"
 )
 
-$uri = "$BaseUrl/api/trades/risk/classify"
+$uri = "$BaseUrl/api/trades/risk/classify-with-summary"
 $tradesPath = Join-Path $PSScriptRoot "trades.json"
 
 if (-not (Test-Path -LiteralPath $tradesPath)) {

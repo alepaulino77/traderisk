@@ -133,11 +133,11 @@ Devido à limitação de tamanho do response no Swagger, para fazer uma requisi�
 
 ```bash
 cd scripts
-./test-classify.ps1
+./test-classify-with-summary.ps1
 ```
 OBS: Necessário ter o CURL instalado !!!
 
-Ao executa-lo ele lê um arquivo JSon ( trades.json ) com um payload contendo 100.000 trades e posta na requisição do endpoint /api/trades/risk/classify. 
+Ao executa-lo ele lê um arquivo JSon ( trades.json ) com um payload contendo 100.000 trades e posta na requisição do endpoint /api/trades/risk/classify-with-summary. 
 
 Também é possível gerar outros arquivos de payload com dados aleatórios rodando o script randomic-request-generator.ps1.
 
